@@ -1,0 +1,23 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Let's build something thoughtful">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0918"/><stop offset="0.6" stop-color="#1a1236"/><stop offset="1" stop-color="#2b1655"/></linearGradient>
+  <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/><stop offset="1" stop-color="#ec4899" stop-opacity=".45"/></linearGradient>
+  <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#c9b6e4" stop-opacity=".35"/><stop offset="1" stop-color="#8b5cf6" stop-opacity=".35"/></linearGradient>
+  <linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#f3eaff"/><stop offset="1" stop-color="#f5a8ff"/></linearGradient>
+  <clipPath id="r"><rect width="1200" height="220" rx="28"/></clipPath>
+</defs>
+<style>
+  .h { font: 800 34px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: url(#tx); opacity: 0; animation: up 1.2s .2s ease-out forwards; }
+  .s { font: 500 16px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #d8c8f0; opacity: 0; animation: up 1.2s .6s ease-out forwards; }
+  @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+<g clip-path="url(#r)">
+  <rect width="1200" height="220" fill="url(#bg)"/>
+  <g fill="#fff"><circle cx="200" cy="50" r="2"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle><circle cx="980" cy="70" r="2"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="1s" repeatCount="indefinite"/></circle><circle cx="640" cy="30" r="1.6"><animate attributeName="opacity" values="0;1;0" dur="3.6s" begin="2s" repeatCount="indefinite"/></circle></g>
+  <text class="h" x="600" y="85" text-anchor="middle">Let's build something thoughtful.</text>
+  <text class="s" x="600" y="118" text-anchor="middle">Crafting scalable services and intelligent interfaces  ·  Thalari Sony Prashanthi</text>
+  <path fill="url(#w2)" d="M0 170 q150 -45 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V220 H0 Z"><animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="14s" repeatCount="indefinite"/></path>
+  <path fill="url(#w1)" d="M0 190 q150 -35 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V220 H0 Z"><animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="10s" repeatCount="indefinite"/></path>
+</g>
+<rect x="1" y="1" width="1198" height="218" rx="27" fill="none" stroke="#c9b6e4" stroke-opacity="0.35"/>
+</svg>

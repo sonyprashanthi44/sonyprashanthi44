@@ -1,0 +1,15 @@
+<svg width="900" height="64" viewBox="0 0 900 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rotating role headline">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#c9b6e4"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+<style>
+  .line { font: 700 26px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fill: url(#g); opacity: 0; animation: cycle 12s ease-in-out infinite; }
+  .cursor { animation: blink 1s steps(2) infinite; }
+  @keyframes cycle { 0% { opacity: 0; transform: translateY(14px); } 4% { opacity: 1; transform: translateY(0); } 21% { opacity: 1; transform: translateY(0); } 25% { opacity: 0; transform: translateY(-14px); } 100% { opacity: 0; } }
+  @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+</style>
+  <text class="line" x="450" y="38" text-anchor="middle" style="animation-delay:0s">Senior Python Full Stack Developer</text>
+  <text class="line" x="450" y="38" text-anchor="middle" style="animation-delay:3s">AI / ML Engineer  ·  LLM &amp; RAG Builder</text>
+  <text class="line" x="450" y="38" text-anchor="middle" style="animation-delay:6s">Django  ·  FastAPI  ·  React  ·  AWS</text>
+  <text class="line" x="450" y="38" text-anchor="middle" style="animation-delay:9s">Banking  ·  Insurance  ·  Retail  ·  5+ years</text>
+  <text class="cursor" x="20" y="38" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="26" fill="#c9b6e4" font-weight="700">▍</text>
+  <text class="cursor" x="880" y="38" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="26" fill="#c9b6e4" font-weight="700" text-anchor="end">▍</text>
+</svg>

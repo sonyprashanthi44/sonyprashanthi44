@@ -1,0 +1,67 @@
+<svg width="1000" height="390" viewBox="0 0 1000 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Skills grouped by area">
+<style>
+  .card { opacity: 0; transform-box: fill-box; transform-origin: center; animation: up .8s ease-out forwards, float 6s ease-in-out 1.2s infinite; }
+  @keyframes up { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+</style>
+<g transform="translate(0,0)"><g class="card" style="animation-delay:0.0s">
+  <rect x="2" y="2" width="316" height="182" rx="18" fill="#14102b" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1.4"/>
+  <rect x="2" y="2" width="316" height="6" rx="3" fill="#a78bfa" opacity="0.9"/>
+  <circle cx="30" cy="40" r="6" fill="#a78bfa"><animate attributeName="r" values="5;8;5" dur="2.4s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.5;1" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <text x="48" y="46" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#f5eeff">Python &amp; Backend</text>
+  <line x1="24" y1="62" x2="296" y2="62" stroke="#a78bfa" stroke-opacity="0.25"/>
+  <text x="26" y="96" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#a78bfa">›</tspan> Django · DRF · FastAPI · Flask</text>
+  <text x="26" y="126" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#a78bfa">›</tspan> Celery · Pydantic · SQLAlchemy</text>
+  <text x="26" y="156" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#a78bfa">›</tspan> REST · GraphQL · gRPC · Microservices</text>
+</g></g>
+<g transform="translate(342,0)"><g class="card" style="animation-delay:0.12s">
+  <rect x="2" y="2" width="316" height="182" rx="18" fill="#14102b" stroke="#60a5fa" stroke-opacity="0.45" stroke-width="1.4"/>
+  <rect x="2" y="2" width="316" height="6" rx="3" fill="#60a5fa" opacity="0.9"/>
+  <circle cx="30" cy="40" r="6" fill="#60a5fa"><animate attributeName="r" values="5;8;5" dur="2.4s" begin="0.12s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.5;1" dur="2.4s" begin="0.12s" repeatCount="indefinite"/></circle>
+  <text x="48" y="46" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#f5eeff">Frontend</text>
+  <line x1="24" y1="62" x2="296" y2="62" stroke="#60a5fa" stroke-opacity="0.25"/>
+  <text x="26" y="96" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#60a5fa">›</tspan> React 18 · TypeScript · Next.js</text>
+  <text x="26" y="126" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#60a5fa">›</tspan> Redux Toolkit · React Hooks</text>
+  <text x="26" y="156" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#60a5fa">›</tspan> HTML5 · CSS3 · MUI · Bootstrap</text>
+</g></g>
+<g transform="translate(684,0)"><g class="card" style="animation-delay:0.24s">
+  <rect x="2" y="2" width="316" height="182" rx="18" fill="#14102b" stroke="#f472b6" stroke-opacity="0.45" stroke-width="1.4"/>
+  <rect x="2" y="2" width="316" height="6" rx="3" fill="#f472b6" opacity="0.9"/>
+  <circle cx="30" cy="40" r="6" fill="#f472b6"><animate attributeName="r" values="5;8;5" dur="2.4s" begin="0.24s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.5;1" dur="2.4s" begin="0.24s" repeatCount="indefinite"/></circle>
+  <text x="48" y="46" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#f5eeff">AI / ML</text>
+  <line x1="24" y1="62" x2="296" y2="62" stroke="#f472b6" stroke-opacity="0.25"/>
+  <text x="26" y="96" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#f472b6">›</tspan> scikit-learn · SHAP · Gradient Boosting</text>
+  <text x="26" y="126" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#f472b6">›</tspan> AWS Bedrock · LLM prompt engineering</text>
+  <text x="26" y="156" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#f472b6">›</tspan> RAG · TF-IDF · pgvector · NLP</text>
+</g></g>
+<g transform="translate(0,200)"><g class="card" style="animation-delay:0.36s">
+  <rect x="2" y="2" width="316" height="182" rx="18" fill="#14102b" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="1.4"/>
+  <rect x="2" y="2" width="316" height="6" rx="3" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="30" cy="40" r="6" fill="#fbbf24"><animate attributeName="r" values="5;8;5" dur="2.4s" begin="0.36s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.5;1" dur="2.4s" begin="0.36s" repeatCount="indefinite"/></circle>
+  <text x="48" y="46" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#f5eeff">Cloud &amp; DevOps</text>
+  <line x1="24" y1="62" x2="296" y2="62" stroke="#fbbf24" stroke-opacity="0.25"/>
+  <text x="26" y="96" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#fbbf24">›</tspan> AWS EKS · ECS · Lambda · S3 · RDS</text>
+  <text x="26" y="126" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#fbbf24">›</tspan> Docker · Kubernetes · Helm</text>
+  <text x="26" y="156" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#fbbf24">›</tspan> Jenkins · GitHub Actions · SonarQube</text>
+</g></g>
+<g transform="translate(342,200)"><g class="card" style="animation-delay:0.48s">
+  <rect x="2" y="2" width="316" height="182" rx="18" fill="#14102b" stroke="#34d399" stroke-opacity="0.45" stroke-width="1.4"/>
+  <rect x="2" y="2" width="316" height="6" rx="3" fill="#34d399" opacity="0.9"/>
+  <circle cx="30" cy="40" r="6" fill="#34d399"><animate attributeName="r" values="5;8;5" dur="2.4s" begin="0.48s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.5;1" dur="2.4s" begin="0.48s" repeatCount="indefinite"/></circle>
+  <text x="48" y="46" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#f5eeff">Data &amp; Messaging</text>
+  <line x1="24" y1="62" x2="296" y2="62" stroke="#34d399" stroke-opacity="0.25"/>
+  <text x="26" y="96" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#34d399">›</tspan> PostgreSQL · MySQL · MongoDB · Redis</text>
+  <text x="26" y="126" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#34d399">›</tspan> Oracle · DynamoDB · Elasticsearch</text>
+  <text x="26" y="156" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#34d399">›</tspan> Kafka · RabbitMQ · SQS / SNS</text>
+</g></g>
+<g transform="translate(684,200)"><g class="card" style="animation-delay:0.6s">
+  <rect x="2" y="2" width="316" height="182" rx="18" fill="#14102b" stroke="#fb7185" stroke-opacity="0.45" stroke-width="1.4"/>
+  <rect x="2" y="2" width="316" height="6" rx="3" fill="#fb7185" opacity="0.9"/>
+  <circle cx="30" cy="40" r="6" fill="#fb7185"><animate attributeName="r" values="5;8;5" dur="2.4s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.5;1" dur="2.4s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <text x="48" y="46" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#f5eeff">Quality &amp; Security</text>
+  <line x1="24" y1="62" x2="296" y2="62" stroke="#fb7185" stroke-opacity="0.25"/>
+  <text x="26" y="96" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#fb7185">›</tspan> pytest · unittest · Jest · Postman</text>
+  <text x="26" y="126" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#fb7185">›</tspan> OAuth 2.0 · JWT · RBAC</text>
+  <text x="26" y="156" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#d9ccf2"><tspan fill="#fb7185">›</tspan> HIPAA / SOX awareness · TDD · Agile</text>
+</g></g>
+</svg>

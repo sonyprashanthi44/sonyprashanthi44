@@ -1,0 +1,36 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Career highlights">
+<style>
+  .tile { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .8s cubic-bezier(.2,1.4,.4,1) forwards; }
+  .shim { animation: dash 4s linear infinite; }
+  @keyframes pop { from { opacity: 0; transform: translateY(20px) scale(.9); } to { opacity: 1; transform: translateY(0) scale(1); } }
+  @keyframes dash { to { stroke-dashoffset: -660; } }
+</style>
+<g transform="translate(0,0)"><g class="tile" style="animation-delay:0.1s">
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="#14102b" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="none" stroke="#a78bfa" stroke-width="2.5" stroke-dasharray="60 600" class="shim" style="animation-delay:0.0s"/>
+  <text x="120" y="62" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#a78bfa">5+</text>
+  <text x="120" y="92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#f1e9ff">Years Experience</text>
+  <text x="120" y="114" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#b9a8d6">Python · Full Stack</text>
+</g></g>
+<g transform="translate(250,0)"><g class="tile" style="animation-delay:0.25s">
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="#14102b" stroke="#f472b6" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-dasharray="60 600" class="shim" style="animation-delay:0.7s"/>
+  <text x="120" y="62" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#f472b6">3</text>
+  <text x="120" y="92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#f1e9ff">Industries Shipped</text>
+  <text x="120" y="114" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#b9a8d6">Banking · Insurance · Retail</text>
+</g></g>
+<g transform="translate(500,0)"><g class="tile" style="animation-delay:0.4s">
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="#14102b" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-dasharray="60 600" class="shim" style="animation-delay:1.4s"/>
+  <text x="120" y="62" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#60a5fa">4</text>
+  <text x="120" y="92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#f1e9ff">AI / ML Product Builds</text>
+  <text x="120" y="114" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#b9a8d6">LLM · RAG · Explainable ML</text>
+</g></g>
+<g transform="translate(750,0)"><g class="tile" style="animation-delay:0.5499999999999999s">
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="#14102b" stroke="#34d399" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="5" y="5" width="230" height="130" rx="18" fill="none" stroke="#34d399" stroke-width="2.5" stroke-dasharray="60 600" class="shim" style="animation-delay:2.0999999999999996s"/>
+  <text x="120" y="62" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#34d399">MS CS</text>
+  <text x="120" y="92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#f1e9ff">Sacred Heart University</text>
+  <text x="120" y="114" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#b9a8d6">2023 – 2024</text>
+</g></g>
+</svg>
